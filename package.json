@@ -1,0 +1,32 @@
+{
+  "name": "wdio-puppeteer-demo",
+  "version": "1.0.0",
+  "description": "Demo of WebdriverIO using Chrome DevTools as Automation Protocol via Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "test-using-devtools": "DEVTOOLS=true ./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilkk/wdio-puppeteer-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilkk/wdio-puppeteer-demo/issues"
+  },
+  "homepage": "https://github.com/anilkk/wdio-puppeteer-demo#readme",
+  "devDependencies": {
+    "@wdio/cli": "^5.16.12",
+    "@wdio/local-runner": "^5.16.12",
+    "@wdio/mocha-framework": "^5.16.12",
+    "@wdio/spec-reporter": "^5.16.11",
+    "@wdio/sync": "^5.16.12",
+    "chromedriver": "^78.0.1",
+    "devtools": "^5.16.12",
+    "wdio-chromedriver-service": "^5.0.2",
+    "webdriverio": "^5.16.12"
+  }
+}
